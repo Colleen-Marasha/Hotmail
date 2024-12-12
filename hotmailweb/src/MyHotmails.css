@@ -1,0 +1,123 @@
+.my-hotmails-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logout-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .add-suggestion-button {
+    margin: 20px 0;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .suggestions {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .suggestion-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    position: relative;
+  }
+  
+  .suggestion-card button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* Modal Styles */
+/* Existing styles remain the same */
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 400px; /* Increased width for better layout */
+  text-align: center;
+}
+
+.modal-content h3 {
+  margin-bottom: 15px; /* Space below the title */
+}
+
+.modal-content input,
+.modal-content textarea,
+.modal-content select {
+  width: 100%; /* Full width for inputs */
+  padding: 10px; /* Padding for better spacing */
+  margin: 10px 0; /* Space between inputs */
+  border: 1px solid #ccc; /* Border styling */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.modal-content button {
+  margin: 5px; /* Space between buttons */
+  padding: 10px 15px; /* Button padding */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer on hover */
+}
+
+.modal-content button:hover {
+  background-color: #007bff; /* Button hover color */
+  color: white; /* Text color on hover */
+}
+
+/* Specific styles for Add and Close buttons */
+.modal-content .add-button {
+  background-color: #28a745; /* Green for Add */
+  color: white;
+}
+
+.modal-content .close-button {
+  background-color: #dc3545; /* Red for Close */
+  color: white;
+}
+
+.success {
+  color: green;
+  margin: 10px 0;
+}
+
+.error {
+  color: red;
+  margin: 10px 0;
+}

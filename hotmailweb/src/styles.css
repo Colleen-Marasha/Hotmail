@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    text-align: center;
+    color: #007bff;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form label {
+    margin: 10px 0 5px;
+}
+
+.signup-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.signup-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.signup-button:hover {
+    background-color: darkblue;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0; 
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #007BFF; 
+    margin-bottom: 20px;
+}
+
+.login-form {
+    background: white; 
+    padding: 20px;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow */
+    width: 300px; 
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    display: block; 
+}
+
+input {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 15px; 
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Slightly rounded corners */
+}
+
+input:focus {
+    border-color: #007BFF; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.login-button {
+    background-color: #007BFF; /* Button color */
+    color: white; /* Text color */
+    padding: 10px;
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+    width: 100%; /* Full width button */
+    font-size: 1rem; /* Font size */
+}
+
+.login-button:hover {
+    background-color: darkblue; /* Darker blue on hover */
+}
+
+nav {
+    margin-top: 20px; 
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0; 
+}
+
+nav li {
+    display: inline; 
+    margin: 0 10px; 
+}
+
+nav a {
+    text-decoration: none; 
+    color: #007BFF; 
+}
+
+nav a:hover {
+    text-decoration: underline; 
+}
+
+.success {
+    color: green;
+    margin: 10px 0;
+}
+
+.error {
+    color: red;
+    margin: 10px 0;
+}
